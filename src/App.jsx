@@ -3,6 +3,7 @@ import Contact from "./components/contact/Contact"
 import Notices from "./components/notices/Notices"
 import Ubication from "./components/ubication/Ubication"
 import About from "./components/about/About"
+import GoTopButton from "./components/gotopbutton/goTopButton"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Ubication />
       <About />
       <Contact />
+      <GoTopButton />
     </div>
   )
 }
