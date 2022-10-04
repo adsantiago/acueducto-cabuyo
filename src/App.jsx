@@ -4,7 +4,7 @@ import Notices from "./components/notices/Notices"
 import Ubication from "./components/ubication/Ubication"
 import About from "./components/about/About"
 import GoTopButton from "./components/gotopbutton/goTopButton"
-
+import "./app.css"
 function App() {
 
   return (

@@ -2,7 +2,7 @@ import logo from "./../../assets/logo2.png"
 import "./navbar.css"
 function Navbar() {
     return (
-        <nav id="Nav" className="navbar navbar-expand-lg">
+        <nav id="Nav" className="navbar navbar-expand-lg navbar-dark">
             <div className="container">
                 <a className="navbar-brand text-white pt-0 pb-0" href="#">
                     <img src={logo} alt="Logo" width="100" height="90" class="d-inline-block align-text-top p-0"/>
