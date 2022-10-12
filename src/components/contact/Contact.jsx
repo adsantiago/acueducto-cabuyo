@@ -17,11 +17,12 @@ const Contact = () => {
                             <p className="fs-5">Sede: Corregimiento villa carmelo, Vereda La Fonda</p>
                         </div>
                         <div className="col-6">
-                            <p className="fs-5">Teléfono: 9999999999 </p>
-                            <p className="fs-5 m-n1">Whatsapp: 315555555</p>
+                        <p className="fs-5"><i class="fa-brands fa-instagram"></i> @espelcabuyo </p>
+                            <p className="fs-5 m-n1"><i class="fa-brands fa-whatsapp"></i> 3164096633</p>
                         </div>
                         <div className="col-12">
-                            <p className="fs-5 mb-5">Correo: elcabuyo@gmail.com</p>
+                            <p className="fs-5 mb-5"><i class="fa-solid fa-envelope"></i> acuafonda@gmail.com</p>
+                            <p className="fs-5 mb-5"><i class="fa-solid fa-envelope"></i> espelcabuyo@gmail.com</p>
                             <p className="fs-5">ATENCIÓN AL PÚBLICO:</p>
                             <p className="fs-5">Lunes a Sábado 8 a.m a 12 p.m</p>
                         </div>
