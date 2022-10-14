@@ -43,7 +43,7 @@ const Notices = () => {
             <div className="container">
                 <h1 className="text-center">Noticias</h1>
                 <Calendar localizer={localizer} events={eventos} startAccessor="start" endAccessor="end"
-                    style={{ height: 500, margin: "50px" }} />
+                    style={{ height: 500, margin: "50px" }}/>
             </div>
         </section>
     );

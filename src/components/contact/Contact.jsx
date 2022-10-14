@@ -21,8 +21,8 @@ const Contact = () => {
                             <p className="fs-5 m-n1"><i class="fa-brands fa-whatsapp"></i> 3164096633</p>
                         </div>
                         <div className="col-12">
-                            <p className="fs-5 mb-5"><i class="fa-solid fa-envelope"></i> acuafonda@gmail.com</p>
-                            <p className="fs-5 mb-5"><i class="fa-solid fa-envelope"></i> espelcabuyo@gmail.com</p>
+                            <p className="fs-5"><i class="fa-solid fa-envelope"></i> acuafonda@gmail.com</p>
+                            <p className="fs-5"><i class="fa-solid fa-envelope"></i> espelcabuyo@gmail.com</p>
                             <p className="fs-5">ATENCIÓN AL PÚBLICO:</p>
                             <p className="fs-5">Lunes a Sábado 8 a.m a 12 p.m</p>
                         </div>
