@@ -46,7 +46,6 @@ const getEvents = async () => {
       const newDoc = { ...{ id: doc.id }, ...doc.data() };
       events.push(newDoc);
     });
-    console.log(events)
     return events;
   };
 
