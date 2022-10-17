@@ -2,6 +2,7 @@ import { Calendar, momentLocalizer } from "react-big-calendar";
 import "react-big-calendar/lib/css/react-big-calendar.css"
 import { useState, useEffect } from "react";
 import moment from "moment/moment";
+import 'moment/locale/es';
 import { getEvents } from "../../config/firebase";
 const Notices = () => {
     const [eventos, setEventos] = useState([]);
@@ -42,7 +43,18 @@ const Notices = () => {
         <section id="notices">
             <div className="container">
                 <h1 className="text-center">Noticias</h1>
-                <Calendar localizer={localizer} events={eventos} startAccessor="start" endAccessor="end"
+                <Calendar 
+                    localizer={localizer} 
+                    events={eventos} 
+                    messages={{
+                    next: "sig",
+                    previous: "ant",
+                    today: "Hoy",
+                    month: "Mes",
+                    week: "Semana",
+                    day: "Día"
+                    }} 
+                    startAccessor="start" endAccessor="end"
                     style={{ height: 500, margin: "50px" }} />
             </div>
         </section>
