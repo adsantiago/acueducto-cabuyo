@@ -8,9 +8,9 @@ const About = () => {
                 <div className="container">
                     <div class="row justify-content-center">
                         <div className='col-md-4 text-center'>
-                            <div className="card border-primary">
-                                <div className="card-header border-primary">
-                                    <h5 className="card-title"><b>Misión</b></h5>
+                            <div className="card">
+                                <div className="card-header header-bg">
+                                    <h5 className="card-title text-white"><b>Misión</b></h5>
                                 </div>
                                 <div className="card-body">
                                     <p className="card-text">El acueducto El Cabuyo presta el servicio de suministro de agua potable y alcantarillado de calidad haciendo el tratamiento adecuado, la micromedición la conservación de las microcuencas y fuentes de agua y la realización de una dirección administrativa y financiera involucrando la comunidad beneficiaria.</p>
@@ -20,9 +20,9 @@ const About = () => {
                         </div>
                         
                         <div className="col-md-4 text-center">
-                            <div className="card border-primary">
-                                <div className="card-header border-primary">
-                                    <h5 className="card-title"><b>Visión</b></h5>
+                            <div className="card">
+                                <div className="card-header header-bg">
+                                    <h5 className="card-title text-white"><b>Visión</b></h5>
                                 </div>
                                 <div className="card-body">
                                     <p className="card-text">El acueducto El Cabuyo en cinco (5) años será una empresa comunitaria lider en la administración, operación, mantenimiento y prestación de los servicios de agua potable y alcantarillado, promoviendo la defensa y protección de los recursos naturales con la participación activa de la comunidad usuaria y el apoyo de las entidades estatales.</p>

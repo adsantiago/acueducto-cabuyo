@@ -14,7 +14,7 @@ const Contact = () => {
                         </div>
                         <div className="col-6">
                             <p className="fs-5">Nit: 805.016. 626-0 </p>
-                            <p className="fs-5">Sede: Corregimiento villa carmelo, Vereda La Fonda</p>
+                            <p className="fs-5">Sede: Corregimiento Villacarmelo, vereda La Fonda</p>
                         </div>
                         <div className="col-6">
                         <p className="fs-5"><i class="fa-brands fa-instagram"></i> @espelcabuyo </p>
