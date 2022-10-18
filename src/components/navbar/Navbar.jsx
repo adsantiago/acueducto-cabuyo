@@ -14,13 +14,13 @@ function Navbar() {
                 <div className="ml-auto collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto mb-2 mb-lg-0 fs-5">
                         <li className="nav-item">
-                            <a className="nav-link text-white" aria-current="page" href="#about">Sobre nosotros</a>
-                        </li>
-                        <li className="nav-item">
                             <a className="nav-link text-white" aria-current="page" href="#notices">Noticias</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link text-white" aria-current="page" href="#ubication">Ubicación</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link text-white" aria-current="page" href="#about">Sobre nosotros</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link text-white" aria-current="page" href="#contact">Contácto</a>
