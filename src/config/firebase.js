@@ -1,32 +1,34 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import {  getFirestore, 
-    Query, 
-    getDocs, 
-    collection,
-    where,
-    addDoc,
-    doc,
-    getDoc,
-    setDoc,
-    deleteDoc,} from "@firebase/firestore";
+import {
+  getFirestore,
+  Query,
+  getDocs,
+  collection,
+  where,
+  addDoc,
+  doc,
+  getDoc,
+  setDoc,
+  deleteDoc,
+} from "@firebase/firestore";
 
 
 const firebaseConfig = {
 
-  apiKey: "AIzaSyD4YfdR-Xwo9m4zLykaANAbI72_seN7JcM",
+  apiKey: import.meta.env.VITE_API_KEY,
 
-  authDomain: "eventos-acueducto.firebaseapp.com",
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
 
-  projectId: "eventos-acueducto",
+  projectId: import.meta.env.VITE_PROJECT_ID,
 
-  storageBucket: "eventos-acueducto.appspot.com",
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
 
-  messagingSenderId: "976067515596",
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
 
-  appId: "1:976067515596:web:8c13f606560bc7e1855e69",
+  appId: import.meta.env.VITE_APP_ID,
 
-  measurementId: "G-2K42MP7EBB"
+  measurementId: import.meta.env.VITE_MEASUREMENT_ID
 
 };
 
@@ -40,16 +42,17 @@ const analytics = getAnalytics(app);
 const db = getFirestore(app);
 
 const getEvents = async () => {
-    const querySnapshot = await getDocs(collection(db, "Eventos"));
-    const events = [];
-    querySnapshot.forEach((doc) => {
-      const newDoc = { ...{ id: doc.id }, ...doc.data() };
-      events.push(newDoc);
-    });
-    return events;
-  };
+  const querySnapshot = await getDocs(collection(db, "Eventos"));
+  const events = [];
+  querySnapshot.forEach((doc) => {
+    const newDoc = { ...{ id: doc.id }, ...doc.data() };
+    events.push(newDoc);
+  });
+  console.log(events)
+  return events;
+};
 
 
-  export {
-    getEvents
-  };
+export {
+  getEvents
+};
