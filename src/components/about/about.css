@@ -1,8 +1,18 @@
-.card{
-    box-shadow: rgba(6, 159, 219, 0.37) 0px 22px 70px 4px;
+.header-bg{
+    background: #05aced !important;
+}
+.card {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+
+    cursor: pointer;
 }
 
-.border-primary{
-    background: #05aced;
-    background-color: #3fa8d1;
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(6, 159, 219, 0.37) 0px 15px 30px 4px;
 }
+
+

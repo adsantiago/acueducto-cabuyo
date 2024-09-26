@@ -1,3 +1,6 @@
 #Nav{
     background-color: #05aced;
 }
+.nav-item:hover{
+    background-color: #0585ed;
+}

@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import moment from "moment/moment";
 import 'moment/locale/es';
 import { getEvents } from "../../config/firebase";
-import { Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
+import { Modal, ModalBody, ModalFooter } from 'reactstrap';
 import './notices.css'
 
 const Notices = () => {
@@ -21,7 +21,6 @@ const Notices = () => {
                     doc.start = new Date(doc.start)
                     doc.end = new Date(doc.end)
                 });
-                //console.log(response)
             }
             setEventos(response);
         }
